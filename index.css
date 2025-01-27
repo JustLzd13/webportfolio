@@ -1,0 +1,51 @@
+* {
+	font-family: "Smooch Sans", serif;
+}
+
+.navbar{
+	font-size: 40px;
+	background-color: skyblue;
+}
+
+
+
+.about-me-details{
+	font-weight: 650;
+	font-size: 24px;
+}
+
+#landing, .btn, #tools, #footer{
+	background-color: #ffea99;
+}
+
+.card-img-top{
+	height: 15rem;
+}
+
+.btn{
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+
+.card{
+	border: 2px solid #ffea99;
+}
+
+.mytools, .contact-me{
+	font-weight: 900;
+	font-size: 4rem;
+}
+
+
+.footer-logo{
+	height: 1.5rem;
+}
+
+#messageme{
+	color: black;
+}
+
+.form-group label{
+	font-weight: 700;
+}
