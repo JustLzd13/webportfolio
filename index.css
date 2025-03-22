@@ -1,51 +1,93 @@
-* {
-	font-family: "Smooch Sans", serif;
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
 }
 
-.navbar{
-	font-size: 40px;
-	background-color: skyblue;
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
 }
 
-
-
-.about-me-details{
-	font-weight: 650;
-	font-size: 24px;
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-#landing, .btn, #tools, #footer{
-	background-color: #ffea99;
+/* Landing Page */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #ffea99;
+    padding: 5px;
 }
 
-.card-img-top{
-	height: 15rem;
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.btn{
-	font-weight: 700;
-	margin-bottom: 1rem;
+/* Projects */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
 }
 
-
-.card{
-	border: 2px solid #ffea99;
+.card:hover {
+    transform: scale(1.05);
 }
 
-.mytools, .contact-me{
-	font-weight: 900;
-	font-size: 4rem;
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
-
-.footer-logo{
-	height: 1.5rem;
+/* Tools */
+.tools-icons img {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
 }
 
-#messageme{
-	color: black;
+/* Contact */
+.contact-form {
+    width: 50%;
+    max-width: 500px;
 }
 
-.form-group label{
-	font-weight: 700;
+.contact-form input,
+.contact-form textarea {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    background-color: #212529;
+    color: white;
+}
+
+/* Footer Social Links */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
 }

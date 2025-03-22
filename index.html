@@ -1,215 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mark Justine A. Lozada</title>
+    
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=LoyAjcvVKv1K&format=png&color=000000">
 
-	<!-- title -->
-	<title>Portfolio | Mark Justine A. Lozada (Capstone)</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
-	<link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=LoyAjcvVKv1K&format=png&color=000000">
-
-	<!-- google font smooch sans -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Smooch+Sans:wght@100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-	<!-- External CSS -->
-	<link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-	<!-- navbar start here-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center sticky-md-top" id="navbarNav">
-            <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#landing">Home</a>
-            <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#tools">Tools</a>
-            <a class="nav-link" href="#contact">Contact</a>            
-        	</div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#landing">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-	<!-- navbar end here -->
 
-	<!-- landing content starts here -->
-	<div class="container-fluid" id="landing">
-		<div class="row justify-content-center align-items-center pt-5 pb-5">
-			<div class="col-lg-4 col-md-6 col-sm-12 order-md-1 order-sm-2">
-				<img src="./images/justine_pic.jpg" class="rounded-circle img-fluid">
-			</div>
-			<div class="col-md-4 col-sm-12 order-md-2 order-sm-1 py-5">
-				<h1>Hi, I am <strong>Mark Justine A Lozada<strong></h1>
-				<h2>FULL STACK WEB DEVELOPER<strong></h2>
-				<p class="about-me-details">
-					Hey there! I'm a 25-year-old guy with a passion for crafting awesome digital experiences. As a full stack web developer, I thrive on bringing ideas to life—from front-end design that captivates users to back-end functionality that makes everything tick. Whether it's coding in JavaScript or diving into databases, I love the challenge of creating seamless web solutions that solve real-world problems. Let's build something amazing together!
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- landing content ends here -->
+    <!-- Landing Section -->
+    <section class="container text-center py-5" id="landing">
+        <div class="row align-items-center">
+            <div class="col-md-4 py-5 mt-5">
+                <img src="./images/justine_pic.jpg" class="rounded-circle img-fluid profile-img" alt="Profile Picture">
+            </div>
+            <div class="col-md-6">
+                <h1>Hi, I'm <strong>Mark Justine A. Lozada</strong></h1>
+                <h2 class="text-primary">Full Stack Web Developer</h2>
+                <p class="about-me-details">I create seamless, modern, and efficient web applications with a passion for innovation and problem-solving.</p>
+            </div>
+        </div>
+    </section>
 
-	<!-- my projects starts here -->
-	<div class="container" id="projects">
-		<div class="row justify-content-center py-5 mt-5">
-			<div class="col-lg-3 col-md-6 col-sm-12 py-5">
-				<div class="card p-2">
-				  <img src="./images/project1.png" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h5 class="card-title">Website 1</h5>
-				    <p class="card-text">Website 1 is a website that allows people to share their videos as well as earn and gaining subscribers by doing so.</p>
-				    <a href="https://www.youtube.com/" target="_blank" class="btn">Visit Website</a>
-				  </div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12 py-5">
-				<div class="card p-2">
-				  <img src="./images/project2.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h5 class="card-title">Website 2</h5>
-				    <p class="card-text">Website 2 is a social media platform that allows user to post, update, and show to the public their life happenings.</p>
-				    <a href="https://www.instagram.com/" target="_blank" class="btn">Visit Website</a>
-				  </div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-12 col-sm-12 py-5">
-				<div class="card p-2">
-				  <img src="./images/project3.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h5 class="card-title">Website 3</h5>
-				    <p class="card-text">Website 3 is a social media platform that allows user to let their voice be heard by positing as a tweet.</p>
-				    <a href="https://x.com/home" target="_blank" class="btn">Visit Website</a>
-				  </div>
-				</div>
-			</div>
+    <!-- Projects Section -->
+    <section class="container" id="projects">
+        <h2 class="text-center section-title">My Projects</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <img src="./images/projects/project1.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><strong>My Blog</strong></h5>
+                        <p class="card-text">A sample my blog web app that allows user to do crud operations in blog format. Used: HTML, CSS, JavaScript, Mongoose, Express, Node.js, React.js and Bootstrap.</p>
+                        <a href="https://client-my-blog-post-lozada.vercel.app/" target="_blank" class="btn btn-primary">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <img src="./images/projects/project2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><strong>EduResource</strong></h5>
+                        <p class="card-text">A sample educational landing page designed to show educational informations. Used: HTML, CSS, JavaScript, and Bootstrap.</p>
+                        <a href="https://justlzd13.github.io/s82-educational-page/" target="_blank" class="btn btn-primary">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <img src="./images/projects/project3.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><strong>Yu-Gi-Oh! Corner</strong></h5>
+                        <p class="card-text">A sample landing page for e-commerce design to showcase my interest collab with my sample project. Used: HTML, CSS, JavaScript, and Bootstrap.</p>
+                        <a href="https://justlzd13.github.io/home-page-exam/" target="_blank" class="btn btn-primary">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <img src="./images/projects/project4.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><strong>E-commerce App - G2</strong></h5>
+                        <p class="card-text">A sample working e-commerce website with functionalities. Used: HTML, CSS, JavaScript, Mongoose, Express, Node.js, React.js and Bootstrap.</p>
+                        <a href="https://justlzd13.github.io/home-page-exam/" target="_blank" class="btn btn-primary">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow">
+                    <img src="./images/projects/project5.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><strong>Movie App - mini project</strong></h5>
+                        <p class="card-text">A sample movie app with crud functionalities. Used: HTML, CSS, JavaScript, Mongoose, Express, Node.js, React.js and Bootstrap.</p>
+                        <a href="https://movie-app-client-lozada.vercel.app/" target="_blank" class="btn btn-primary">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		</div>
-	</div>
-	<!-- my projects ends here -->
+    <!-- Tools Section -->
+    <section class="container-fluid text-center py-5 bg-light" id="tools">
+        <h2 class="section-title">My Web Dev Tools</h2>
+        <div class="tools-icons">
+            <img src="https://img.icons8.com/?size=100&id=46605&format=png&color=000000">
+            <img src="https://img.icons8.com/?size=100&id=107497&format=png&color=000000">
+            <img src="https://img.icons8.com/?size=100&id=1ZSHk8m9bk4p&format=png&color=000000">
+            <img src="https://img.icons8.com/?size=100&id=lVitPDXqQKP8&format=png&color=000000">
+            <img src="https://img.icons8.com/?size=100&id=bqGAqsgNQpmx&format=png&color=000000">
+            <img src="https://img.icons8.com/?size=100&id=46565&format=png&color=000000">
 
-	<!-- tools starts here -->
-	<div class="container-fluid py-5" id="tools">
-		<div class="row text-center mt-5 py-5">
-			<div class="col-lg-12 col-md-12 col-sm-12">
-				<h2 class="mytools">&#128187; MY WEB DEV TOOLS &#128187;</h2>
-			</div>
-			<div class="col mt-5">
-				<img src="https://img.icons8.com/?size=100&id=46605&format=png&color=000000" class="img-fluid mx-4">
-				<img src="https://img.icons8.com/?size=100&id=107497&format=png&color=000000" class="img-fluid mx-4">
-				<img src="https://img.icons8.com/?size=100&id=1ZSHk8m9bk4p&format=png&color=000000" class="img-fluid mx-4">
-				<img src="https://img.icons8.com/?size=100&id=lVitPDXqQKP8&format=png&color=000000" class="img-fluid mx-4">
-				<img src="https://img.icons8.com/?size=100&id=ZMc42tPbG32H&format=png&color=000000" class="img-fluid mx-4">
-			</div>
-		</div>
-		<div class="row text-center mt-5 py-5">
-			<div class="col-lg-12 col-md-12 col-sm-12">
-				<h2 class="mytools">&#128204; MY OTHER TOOLS &#128204;</h2>
-			</div>
-			<div class="col mt-5">
-				<img src="https://img.icons8.com/?size=100&id=nBeuei22ZvUb&format=png&color=000000" class="img-fluid mx-4">
-				<img src="https://img.icons8.com/?size=100&id=0ioabcvZG78O&format=png&color=000000" class="img-fluid mx-4">
-				<img src="https://img.icons8.com/?size=100&id=111595&format=png&color=000000" class="img-fluid mx-4">
-				<img src="https://img.icons8.com/?size=100&id=xcAPDOoOvzwm&format=png&color=000000" class="img-fluid mx-4">
-			</div>
-		</div>
-	</div>
-	<!-- tools ends here -->
+        </div>
+    </section>
 
-	<!-- contact starts here -->
+    <!-- My Other Tools Section -->
+    <section class="container-fluid text-center py-5 bg-light" id="tools">
+        <h2 class="section-title">My Other Tools</h2>
+        <div class="tools-icons">
+            <img src="https://avatars.slack-edge.com/2024-04-05/6934042159649_ac803d1cddbcbef8f110_512.png">
+            <img src="https://www.edc4it.com/images/blog/mongodb.png">
+            <img src="https://yt3.googleusercontent.com/M7S2_gnnaJT5buAfWW4tanX9NELz5PddzNCQgnRV1oP8t12s5pg4cYKMChkEoh8gtGX__KtcYKU=s900-c-k-c0x00ffffff-no-rj">
+            <img src="https://cdn.allcreatortools.com/logo/act_logo_streamlabs.webp">
+            <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPhWx5_2ZSeUitfkyPH84LYyyvao4TRDTdjsqNyHQyyGZV7A3D2fje3j_2k2th2Xbnc-&format=source">
+            <img src="https://www.sublimehq.com/images/sublime_text.png">
 
-	<div class="container-fluid py-5" id="contact">
-		<div class="row text-center mt-5 py-5">
-			<div class="col-sm-12 col-lg-12">
-				<h2 class="contact-me">&#128205; Contact Me &#128205;</h2>
-			</div>
-			<div class="col-md-12 col-sm-12 col-lg-12">
-				<a href="https://www.facebook.com/" target="_blank"><img src="https://img.icons8.com/?size=100&id=118568&format=png&color=000000" class="img-fluid mx-4"></a>
-				<a href="https://www.linkedin.com/in/mark-justine-lozada-747b8023b/" target="_blank"><img src="https://img.icons8.com/?size=100&id=67570&format=png&color=000000" class="img-fluid mx-4"></a>
-				<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img src="https://img.icons8.com/?size=100&id=nQ4dZIRCI0nW&format=png&color=000000" class="img-fluid mx-4"></a>
-				<a href="https://github.com/" target="_blank"><img src="https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000" class="img-fluid mx-4"></a>
-			</div>
-		</div>
-	</div>
+        </div>
+    </section>
 
-			<div class="container-fluid">
-				<div class="row justify-content-center">
-					<div class="col-lg-5">
-						<form class="p-3 rounded text-dark">
-			                <div class="form-group">
-			                    <label class="text-dark" for="name">Full Name</label>
-			                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-			                </div>
-			                <div class="form-group">
-			                    <label class="text-dark" for="email">Email address</label>
-			                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required >
-			                </div>
-			                <div class="form-group">
-			                    <label class="text-dark" for="message">Message</label>
-			                    <textarea class="form-control" id="message" rows="7" required></textarea>
-			                </div>
-			                <button type="button" value="required" id="messageme" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#modalDiv">Send me a message</button>
-			            </form>
-					</div>
-				</div>
-			</div>
+    <!-- Contact Section -->
+    <section class="container text-center py-5" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form id="contact-form" class="mx-auto contact-form">
+            <input type="text" id="name" class="form-control mb-3" placeholder="Your Name" required>
+            <input type="email" id="email" class="form-control mb-3" placeholder="Your Email" required>
+            <textarea id="message" class="form-control mb-3" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-dark">Send Message</button>
+        </form>
+    </section>
 
+    <!-- Include EmailJS & SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("8Sit4zZ5Lh-odI-bQ"); // Replace with your EmailJS Public Key
+        })();
 
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault();
 
-			<!-- modal fcn of modal in contact us -->
+            emailjs.send("service_rz62w8w", "template_m4pjmnh", {
+                from_name: document.getElementById("name").value,
+                from_email: document.getElementById("email").value,
+                message: document.getElementById("message").value
+            }).then(function(response) {
+                Swal.fire({
+                    icon: "success",
+                    title: "Message Sent!",
+                    text: "I'll get back to you soon.",
+                    confirmButtonColor: "#28a745"
+                });
 
-			<!-- Button trigger modal -->
-			<!-- Modal fcn line of codes start here -->
-			<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <h5 class="modal-title" id="exampleModalLabel">Message Sent</h5>
-			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			      </div>
-			      <div class="modal-body">
-			        Thank you for contacting me!!!
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" id="messageme" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-			<!-- modal fcn line of codes end here -->
-
+                document.getElementById("contact-form").reset(); // Clear form
+            }, function(error) {
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops!",
+                    text: "Something went wrong. Please try again later.",
+                    confirmButtonColor: "#dc3545"
+                });
+            });
+        });
+    </script>
 
 
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-4">
+        <p>Email: lozadamarkjustine@gmail.com | &copy; 2025 All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://github.com/JustLzd13" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=ffffff" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/mark-justine-lozada-747b8023b/" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=67570&format=png&color=ffffff" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://www.facebook.com/flint111/" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=13912&format=png&color=000000" alt="Facebook" class="social-icon">
+            </a>
+        </div>
+    </footer>
 
 
-			<!-- footer starts here -->
-			<div class="container-fluid p-5" id="footer">
-				<div class="row text-md-end text-lg-end text-sm-center px-0"> 
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<h4>Email me at: lozadamarkju@gmail.com</h4>
-						<h4>Or Call me at: 0955450XXX2</h4>
-						<h4>89B M. Natividad St., XXXXX, Zamboanga City</h4>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 text-md-start text-sm-center">
-						<h4>2025 | All rights reserved</h4>
-						<h4>Or Visit my Youtube Channel at: <a href="https://www.youtube.com/@justlzd2908" target="_blank"><img class="footer-logo" src="https://img.icons8.com/?size=100&id=ISBCNY3NwyMM&format=png&color=000000" class="img-fluid"></a></h4>
-						<h4>Mark Justine A. Lozada</h4>
-					</div>
-				</div>
-			</div>
-			<!-- footer ends here -->
-	
-	<!-- contact ends here -->
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-	 <!-- Bootstrap Script -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
